@@ -1,0 +1,81 @@
+body{
+  font-family: sans-serif;
+  height: 100%;
+
+}
+.navbar-text{
+  font-size: 30px;
+  font-weight: bold;
+}
+.navbar li{
+  padding: 0 40px;
+}
+.nav-item a{
+  text-decoration: none;
+  color: white;
+  font-size: 10px;
+
+}
+.navbar span{
+  font-size: 25px;
+}
+.nav-item a:hover{
+  color: orange;
+  border-bottom: 2px solid orange;
+}
+
+.navbar-brand img{
+  height: 80px;
+
+}
+.container-fluid{
+  background-image: url(images/back.jpg);
+  height: 50vh;
+  background-position: center;
+  background-size: cover;
+  background-attachment: fixed;
+  text-align: center;
+  border: 2px solid grey;
+}
+.container-fluid h1{
+  color: white;
+}
+
+
+
+.page-footer{
+  background-color: rgb(255, 255, 255);
+  color: white;
+}
+.col a{
+  text-align: center;
+}
+
+li.dropdown {
+  display: inline-block;
+}
+
+.dropdown:hover .isi-dropdown {
+  display: block;
+}
+
+.isi-dropdown a:hover {
+  color: rgb(0, 0, 0) !important;
+}
+
+.isi-dropdown {
+  position: absolute;
+  display: none;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  background-color: #f9f9f9;
+}
+
+.isi-dropdown a {
+  color: #3c3c3c !important;
+}
+
+.isi-dropdown a:hover {
+  color: #232323 !important;
+  background: #f3f3f3 !important;
+}
